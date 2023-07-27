@@ -1,0 +1,35 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #fff;
+    padding: 16px;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .nameContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .myName {
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .myName:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+.temp{
+    text-decoration: none;
+}

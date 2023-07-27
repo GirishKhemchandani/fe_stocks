@@ -1,0 +1,135 @@
+.myCard{
+    width: 45%;
+    background-color: whitesmoke;
+    /* border-color: aquamarine; */
+    border: solid;
+    border-width: 4px;
+    border-radius: 3%;
+    padding: 3% 6%;
+    height: 40%;
+    border-color: paleturquoise;
+}
+.myBox{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to be centered */
+    /* background: black; */ 
+}
+
+
+/* Reset some default styles to have a consistent base */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set a background color for the whole page */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Center the content horizontally and vertically */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the medium-sized box container */
+  .form-box {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px; /* Add curved border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Add fine border line */
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none; /* Remove default input focus outline */
+    transition: border-color 0.2s; /* Add smooth transition effect */
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the response message */
+  .response {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media screen and (max-width: 480px) {
+    .form-box {
+      width: 90%;
+      max-width: 400px;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  

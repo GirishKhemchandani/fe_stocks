@@ -1,0 +1,82 @@
+/* StockData.css */
+
+/* Container styles */
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stock data item styles */
+  .row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  
+  .value {
+    font-size: 16px;
+  }
+  
+  /* Styling individual stock data items */
+  .open {
+    color: #007BFF;
+  }
+  
+  .close {
+    color: #28A745;
+  }
+  
+  .high {
+    color: #FF5733;
+  }
+  
+  .low {
+    color: #FFC300;
+  }
+  
+  .volume {
+    color: #FF33FF;
+  }
+  
+
+  .home-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .home-button a {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-button a:hover {
+    background-color: #0056b3;
+  }
+  
